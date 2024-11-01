@@ -1,11 +1,10 @@
 <script setup>
 import Navbar from './components/Navbar.vue';
-import landingpage from './pages/Home/LandingPage.vue';
 </script>
 
 <template>
-<Navbar/>
-<landingpage/>
+  <Navbar />
+  <router-view /> 
 </template>
 
 <style scoped></style>

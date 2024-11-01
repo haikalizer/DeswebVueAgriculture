@@ -1,4 +1,5 @@
-<script setup></script>
+<script setup>
+</script>
 
 <template>
   <div
@@ -10,21 +11,21 @@
           Wonderful Tarakan
         </p>
       </div>
-      <button class="btn btn-ghost text-base lg:text-sm text-base-content font-normal p-0 md:hidden sm:hidden xs:hidden">
+      <router-link to="/" class="btn btn-ghost text-base lg:text-sm text-base-content font-normal p-0 md:hidden sm:hidden xs:hidden">
         Home
-      </button>
-      <button class="btn btn-ghost text-base lg:text-sm text-base-content font-normal p-0 md:hidden sm:hidden xs:hidden">
+      </router-link>
+      <router-link to="/pengenalan" class="btn btn-ghost text-base lg:text-sm text-base-content font-normal p-0 md:hidden sm:hidden xs:hidden">
         Pengenalan
-      </button>
-      <button class="btn btn-ghost text-base lg:text-sm text-base-content font-normal p-0 md:hidden sm:hidden xs:hidden">
+      </router-link>
+      <router-link to="/hasil-tangkapan" class="btn btn-ghost text-base lg:text-sm text-base-content font-normal p-0 md:hidden sm:hidden xs:hidden">
         Hasil Tangkapan
-      </button>
-      <button class="btn btn-ghost text-base lg:text-sm text-base-content font-normal p-0 md:hidden sm:hidden xs:hidden">
+      </router-link>
+      <router-link to="/tanya-jawab" class="btn btn-ghost text-base lg:text-sm text-base-content font-normal p-0 md:hidden sm:hidden xs:hidden">
         Tanya Jawab
-      </button>
-      <button class="btn btn-ghost text-base lg:text-sm text-base-content font-normal p-0 md:hidden sm:hidden xs:hidden">
+      </router-link>
+      <router-link to="/kontak-kami" class="btn btn-ghost text-base lg:text-sm text-base-content font-normal p-0 md:hidden sm:hidden xs:hidden">
         Kontak Kami
-      </button>
+      </router-link>
     </div>
 
     <div class="dropdown dropdown-end md:hidden sm:hidden xs:hidden">
